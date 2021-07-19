@@ -1,5 +1,7 @@
 # OpenMercato Multi-Vendor Marketplace
 
+<p align="center"><img src="assets/logo.jpeg" /></p>
+
 Welcome to the **OpenMercato** project! We're playing here with an idea for Open Source Multi-Vendor marketplace product. 
 
 The project is designed API First and headless. Based on NestJS, MongoDB, TypeScript and GraphQL.
