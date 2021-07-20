@@ -1,4 +1,6 @@
 import { Injectable } from '@nestjs/common';
+import  * as bcrypt from 'bcrypt'
+const saltRounds = 10;
 
 // This should be a real class/interface representing a user entity
 export type User = any;
@@ -16,7 +18,11 @@ export class UsersService {
       username: 'maria',
       password: 'guess',
     },
-  ];
+  ].map(val => {
+    const salt = bcrypt.genSaltSync(saltRounds);
+    val.password = bcrypt.hashSync(val.password, salt)
+    return val;
+  });
 
   async findOne(username: string): Promise<User | undefined> {
     return this.users.find(user => user.username === username);
