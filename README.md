@@ -1,6 +1,6 @@
-# OpenMercato Multi-Vendor Marketplace
+# Open Mercato Multi-Vendor Marketplace
 
-<p align="center"><img src="assets/logo.jpeg" /></p>
+<p align="center"><img src="assets/open-mercato-logo.png" /></p>
 
 Welcome to the **OpenMercato** project! We're playing here with an idea for Open Source Multi-Vendor marketplace product. 
 
