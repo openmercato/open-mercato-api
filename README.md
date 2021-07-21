@@ -20,7 +20,8 @@ We're just doing very first steps and any support is much appreciated. You can s
 
 ## License
 
-It's MIT license. Open Source.  
+Open Mercato Admin panel and the Frontend app are Open Source, MIT.
+Open Mercato API license is based on MIT, however for the commercial usage [please check our license limits](LICENSE) and the [Cloud Offer](https://openmercato.com).
 
 ## Partners
 
