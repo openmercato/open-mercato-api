@@ -1,0 +1,16 @@
+{
+   "type": "postgres",
+   "host": "localhost",
+   "port": 5432,
+   "username": "sa",
+   "password": "6ENtRQ/pFf",
+   "database": "open-mercato",
+   "synchronize": true,
+   "logging": false,
+   "migrations": [
+      "migrations/**/*.ts"
+   ],
+   "cli": {
+      "migrationsDir": "src/migrations"
+   }
+}
