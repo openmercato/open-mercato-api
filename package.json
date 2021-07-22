@@ -8,6 +8,7 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
+    "open-mercato": "node dist/cli",
     "format": "prettier --write \"apps/**/*.ts\" \"libs/**/*.ts\"",
     "start": "nest start",
     "start:db": "cd apps/api && docker-compose up",
