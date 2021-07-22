@@ -16,24 +16,6 @@
       "compilerOptions": {
         "tsConfigPath": "apps/api/tsconfig.app.json"
       }
-    },
-    "admin": {
-      "type": "application",
-      "root": "apps/admin",
-      "entryFile": "main",
-      "sourceRoot": "apps/admin/src",
-      "compilerOptions": {
-        "tsConfigPath": "apps/admin/tsconfig.app.json"
-      }
-    },
-    "marketplace-starter": {
-      "type": "application",
-      "root": "apps/marketplace-starter",
-      "entryFile": "main",
-      "sourceRoot": "apps/marketplace-starter/src",
-      "compilerOptions": {
-        "tsConfigPath": "apps/marketplace-starter/tsconfig.app.json"
-      }
     }
   }
 }
