@@ -8,8 +8,8 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build && nest build --config open-mercato-cli.json",
-    "open-mercato": "node dist/app/api/cli",
-    "open-mercato:docker": "docker exec open-mercato-api_app node dist/app/api/cli",
+    "open-mercato": "node dist/apps/api/cli",
+    "open-mercato:docker": "docker exec app node dist/app/api/cli",
     "format": "prettier --write \"apps/**/*.ts\" \"libs/**/*.ts\"",
     "start": "nest start",
     "start:db": "cd apps/api && docker-compose up",
